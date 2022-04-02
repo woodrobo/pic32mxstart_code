@@ -13,6 +13,9 @@ voltage_sender
 32MXOscillo, 32MXOscillo_overclock  
 オシロスコープのコードです。
   
+PWM_test  
+コラムで紹介したArduinoのanalogWriteのような関数のサンプルプログラムです。32MXOscilloと同じく外部の16MHz水晶振動子を利用、OC1はRB3に割り当てています。抵抗とLEDを接続して光り方を見てみると良いと思います。
+  
 **第5章　ペリフェラル**  
 SPItest_MCP4911  
 SPI通信対応の10bitDACであるMCP4911と通信するコードです。
